@@ -6,6 +6,8 @@ namespace ConsoleApp1
     {
         public string ISBN { get; set; }
         public string Author { get; set; }
+        public int NumberOfPages { get; set; }
+        public int NumberOfAuthors { get; set; }
         public override string ToString()
         {
             return $" {ISBN}, {Author} ";
